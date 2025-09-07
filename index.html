@@ -10,21 +10,10 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-
-    <style>
-      .cover-section {
-        background-image: url("./images/medline\ pdm.jpg");
-        filter: brightness(50%);
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents image repetition */
-        height: 50vh; /* Example: sets height to 100% of viewport height */
-        /* Adjust height as needed, e.g., min-height: 400px; */
-      }
-    </style>
   </head>
 
   <body>
+    <!--Title-->
     <div id="titulo" class="row m-3 text-center justify-content-center">
       <div class="col-auto">
         <img
@@ -38,7 +27,9 @@
         <h1>PRODUCTOS MEDLINE</h1>
       </div>
     </div>
+    <!--Title finish-->
 
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button
@@ -73,38 +64,125 @@
         </div>
       </div>
     </nav>
+    <!--Navbar finish-->
 
-    <!-- Hero -->
-<div class="pt-5 text-center bg-image" style="
-    background-image: url('./images/medline\ pdm.jpg');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;">
-  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-    <div class="d-flex justify-content-center align-items-center">
-      <div class="text-white">
-        <h1>PDM NUEVO LAREDO</h1>
+    <!-- Hero Image-->
+    <div
+      class="pt-5 text-center bg-image"
+      style="
+        background-image: url('./images/medline\ pdm.jpg');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="text-white">
+            <h1>PDM NUEVO LAREDO</h1>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Hero -->
+    <!-- Hero Image finish -->
 
     <section class="container">
       <div class="row text-center m-4">
         <h2>NUESTROS PRODUCTOS</h2>
       </div>
 
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="row">
+              <div class="col-xs-2 col-sm-6 col-lg-3">
+                <img src="./images/producto (1).jpg" alt="producto 1" />
+              </div>
+              <div class="col-xs-10 col-sm-6 col-lg-9">
+                <div class="card-body">
+                  <h5 class="card-title">Mascarillas</h5>
+                  <p class="card-text">
+                    La mascarilla quirúrgica Tipo IIR de Medline es una
+                    mascarilla facial quirúrgica resistente a los fluidos que
+                    proporciona el más alto nivel de protección de barrera
+                    fiable gracias a su capacidad de resistencia a los fluidos y
+                    a su eficiencia de filtración bacteriana (BFE) del 98%.
+                  </p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <img src="./images/producto (2).jpg" alt="producto 2" />
+            <div class="card-body">
+              <h5 class="card-title">Guantes</h5>
+              <p class="card-text">
+                Los Guantes de Examen de Nitrilo MediGuard Special ofrecen una solución costo-efectiva de guantes de examen de nitrilo sin polvo. Cada usuario disfruta de una potente protección de barrera.
+              </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="./images/producto (3).jpg" alt="producto 3" />
+            <div class="card-body">
+              <h5 class="card-title">Vestimenta</h5>
+              <p class="card-text">
+                El conjunto de pijama quirúrgico azul desechable Ultimate de Medline está diseñado en colaboración con profesionales de la salud, con el objetivo de promover comodidad y protección.
+              </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-4 mb-2 mb-sm-0">
+          <div class="card">
+            <img src="./images/producto (4).jpg" alt="producto 4" />
+            <div class="card-body">
+              <h5 class="card-title">Respiratorio</h5>
+              <p class="card-text">
+                Las cánulas nasales Softech® ayudan a proporcionar un suministro de oxígeno cómodo a los pacientes. 
+              </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./images/producto (5).jpg" alt="producto 5" />
+            <div class="card-body">
+              <h5 class="card-title">Productos Quirurgicos</h5>
+              <p class="card-text">
+                El electrobisturí con evacuación de humo Smoke Shield™ prioriza la seguridad del personal.
+              </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./images/producto (6).jpg" alt="producto 6" />
+            <div class="card-body">
+              <h5 class="card-title">Terapia y rehabilitacion</h5>
+              <p class="card-text">
+                La bolsa de hielo universal permite aplicar frío en una zona particular para la circulación.
+              </p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
